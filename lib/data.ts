@@ -2,7 +2,7 @@ import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
-import decathlon from "@/public/decahtlon.jpg";
+import decathlon from "@/public/decathlonn.png";
 import rmtdevImg from "@/public/rmtdev.png";
 import wordanalyticsImg from "@/public/wordanalytics.png";
 
@@ -72,7 +72,7 @@ export const projectsData = [
   {
     title: "Decathlon Digital",
     description:
-      "I worked as a full-stack developer on this company project for 2 years.",
+      "I worked as a full-stack developer on this company project for 2 years and 6 months.",
     tags: [
       "Javascript",
       "Svelte",
@@ -88,7 +88,7 @@ export const projectsData = [
     title: "Project Management",
     description:
       "A react project management  I was the front-end developer. It has features like filtering, sorting and pagination.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
+    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Node.Js"],
     imageUrl: rmtdevImg,
   },
   {
