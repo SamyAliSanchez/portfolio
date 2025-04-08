@@ -108,8 +108,10 @@ export const skillsData = [
   "React",
   "Next.js",
   "Node.js",
+  "Express",
   "Git",
   "Tailwind",
   "MongoDB",
   "Express",
+  "Framer Motion",
 ] as const;
