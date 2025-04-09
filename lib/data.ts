@@ -38,23 +38,15 @@ export const experiencesData = [
     title: "Banking software developer",
     location: "Madrid, Spain",
     description:
-      "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
+      "Development with Cobol and maintenance of batch/online programs. Working on the migration from Banesto, OpenBank to Santander Bank.",
     icon: React.createElement(CgWorkAlt),
-    date: "2016- 2017",
-  },
-  {
-    title: "Frontend Developer",
-    location: "Madrid, Spain",
-    description:
-      "I worked as a front-end developer for a year in Orange. I also upskilled to the full stack.",
-    icon: React.createElement(CgWorkAlt),
-    date: "2017 - 2018",
+    date: "2017- 2019",
   },
   {
     title: "Graduated bootcamp",
     location: "Barcelona, Spain",
     description:
-      "I graduated after 6 months of studying. I immediately hired form Ironhack and after 6 months found a job as a front-end developer in Extia, Decathlon.",
+      "I graduated after 6 months of studying. I immediately was hired from Ironhack as a teacher assistant.",
     icon: React.createElement(LuGraduationCap),
     date: "2021-2022",
   },
@@ -62,7 +54,7 @@ export const experiencesData = [
     title: "Full-Stack Developer",
     location: "Madrid, Spain",
     description:
-      "I'm now a full-stack developer working in Decathlon Digital. My stack includes Javascript, Svelte, React, TypeScript, Node.js",
+      "I'm now a full-stack developer working in Decathlon Digital. My stack includes Javascript, Svelte, React, TypeScript, Node.js, etc",
     icon: React.createElement(FaReact),
     date: "2022 - present",
   },
@@ -112,6 +104,7 @@ export const skillsData = [
   "Git",
   "Tailwind",
   "MongoDB",
+  "Postman",
   "Express",
   "Framer Motion",
 ] as const;
