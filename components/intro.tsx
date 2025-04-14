@@ -95,6 +95,7 @@ export default function Intro() {
           className="bg-white p-4 text-gray-700 flex items-center gap-2 rounded-full focus:scale-[1.15] hover:scale-[1.15] hover:text-blue-800 active:scale-105 transition cursor-pointer borderBlack"
           href="https://www.linkedin.com/in/samyalisanchez/"
           target="_blank"
+          aria-label="Visit Samy's LinkedIn profile"
         >
           <BsLinkedin />
         </a>
@@ -102,6 +103,7 @@ export default function Intro() {
           className="bg-white p-4 text-gray-700 flex items-center text-[1.35rem] gap-2 rounded-full focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition cursor-pointer borderBlack"
           href="https://github.com/SamyAliSanchez"
           target="_blank"
+          aria-label="Visit Samy's Github profile"
         >
           <FaGithubSquare />
         </a>
