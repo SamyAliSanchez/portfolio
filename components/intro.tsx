@@ -8,9 +8,11 @@ import { BsArrowRight, BsLinkedin } from "react-icons/bs";
 import { HiDownload } from "react-icons/hi";
 import { FaGithubSquare } from "react-icons/fa";
 import { useSectionInView } from "@/lib/hooks";
+import { useActiveSectionContext } from "@/context/active-section-context";
 
 export default function Intro() {
   const { ref } = useSectionInView("Home", 0.5);
+  const { setActiveSection, setTimeOfLastClick } = useActiveSectionContext();
 
   return (
     <section
@@ -67,6 +69,10 @@ export default function Intro() {
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ delay: 0.1 }}
+        onClick={() => {
+          setActiveSection("Contact");
+          setTimeOfLastClick(Date.now());
+        }}
       >
         <Link
           href="#contact"
@@ -77,7 +83,7 @@ export default function Intro() {
         </Link>
 
         <a
-          className="group bg-white px-7 py-3 flex items-center gap-2 rounded-full outline:none focus:scale-110 hover:scale-110 active:scale-105 transition cursor-pointer border-black/10"
+          className="group bg-white px-7 py-3 flex items-center gap-2 rounded-full outline:none focus:scale-110 hover:scale-110 active:scale-105 transition cursor-pointer borderBlack"
           href="/CV.pdf"
           download={true}
         >
@@ -86,14 +92,14 @@ export default function Intro() {
         </a>
 
         <a
-          className="bg-white p-4 text-gray-700 flex items-center gap-2 rounded-full focus:scale-[1.15] hover:scale-[1.15] hover:text-blue-800 active:scale-105 transition cursor-pointer border-black/10"
+          className="bg-white p-4 text-gray-700 flex items-center gap-2 rounded-full focus:scale-[1.15] hover:scale-[1.15] hover:text-blue-800 active:scale-105 transition cursor-pointer borderBlack"
           href="https://www.linkedin.com/in/samyalisanchez/"
           target="_blank"
         >
           <BsLinkedin />
         </a>
         <a
-          className="bg-white p-4 text-gray-700 flex items-center text-[1.35rem] gap-2 rounded-full focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition cursor-pointer border-black/10"
+          className="bg-white p-4 text-gray-700 flex items-center text-[1.35rem] gap-2 rounded-full focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition cursor-pointer borderBlack"
           href="https://github.com/SamyAliSanchez"
           target="_blank"
         >
