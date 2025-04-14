@@ -5,7 +5,7 @@
 
 🚀 This repository contains the source code for my **personal portfolio website**, built using modern frontend tools like **React**, **TypeScript**, and **TailwindCSS**.
 
-🔗 **Live demo:** [samyalisanchez.dev](https://yourdomain.com) <!-- Replace with your actual portfolio link -->
+🔗 **Live demo:** [samyalisanchez.dev](https://samyali.es)
 
 ---
 
