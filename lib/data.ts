@@ -54,7 +54,7 @@ export const experiencesData = [
     title: "Full-Stack Developer",
     location: "Madrid, Spain",
     description:
-      "I'm now a full-stack developer working in Decathlon Digital. My stack includes Javascript, Svelte, React, TypeScript, Node.js, etc",
+      "I'm now a full-stack developer working in Decathlon Digital. My stack includes Javascript, Svelte, React, TypeScript, Node.js, etc.",
     icon: React.createElement(FaReact),
     date: "2022 - present",
   },
