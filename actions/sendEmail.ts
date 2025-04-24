@@ -11,22 +11,22 @@ export const sendEmail = async (formData: FormData) => {
   const senderEmail = formData.get("senderEmail");
   const message = formData.get("message");
 
-  // simple server-side validations
+  // simple server-side validation
   if (!validateString(senderEmail, 500)) {
     return {
       error: "Invalid sender email",
     };
   }
-
   if (!validateString(message, 5000)) {
     return {
       error: "Invalid message",
     };
   }
 
+  let data;
   try {
-    await resend.emails.send({
-      from: "Contact Form <onboarding@resend.com>",
+    data = await resend.emails.send({
+      from: "Contact Form <onboarding@resend.dev>",
       to: "samy.alisanchez91@gmail.com",
       subject: "Message from contact form",
       reply_to: senderEmail as string,
@@ -40,4 +40,8 @@ export const sendEmail = async (formData: FormData) => {
       error: getErrorMessage(error),
     };
   }
+
+  return {
+    data,
+  };
 };
