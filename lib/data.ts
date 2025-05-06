@@ -46,7 +46,7 @@ export const experiencesData = [
     title: "Graduated bootcamp",
     location: "Barcelona, Spain",
     description:
-      "I graduated after 6 months of studying. I immediately was hired from Ironhack as a teacher assistant.",
+      "I graduated after 6 months of studying and immediately was hired from the bootcamp Ironhack as a teacher assistant.",
     icon: React.createElement(LuGraduationCap),
     date: "2021-2022",
   },
@@ -71,15 +71,15 @@ export const projectsData = [
       "React",
       "Typescript",
       "Node.js",
-      "CSS",
       "HTML",
+      "CSS",
     ],
     imageUrl: decathlon,
   },
   {
     title: "Project Management",
     description:
-      "A react project management  I was the front-end developer. It has features like filtering, sorting and pagination.",
+      "A react project management that contains features like filtering, sorting and pagination.",
     tags: ["React", "TypeScript", "Next.js", "Tailwind", "Node.Js"],
     imageUrl: rmtdevImg,
   },
