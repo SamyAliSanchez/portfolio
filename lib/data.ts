@@ -4,7 +4,7 @@ import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
 import decathlon from "@/public/decathlon1.png";
 import rmtdevImg from "@/public/rmtdev.png";
-import wordanalyticsImg from "@/public/wordanalytics.png";
+import wordScramblle from "@/public/Desktop_1350px.jpg";
 
 export const links = [
   {
@@ -35,7 +35,7 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Banking software developer",
+    title: "software developer - Santander Bank",
     location: "Madrid, Spain",
     description:
       "Development with Cobol and maintenance of batch/online programs. Working on the migration from Banesto, OpenBank to Santander Bank.",
@@ -43,7 +43,7 @@ export const experiencesData = [
     date: "2017- 2019",
   },
   {
-    title: "Graduated bootcamp",
+    title: "Graduated bootcamp - Ironhack",
     location: "Barcelona, Spain",
     description:
       "I graduated after 6 months of studying and immediately was hired from the bootcamp Ironhack as a teacher assistant.",
@@ -51,7 +51,7 @@ export const experiencesData = [
     date: "2021-2022",
   },
   {
-    title: "Full-Stack Developer",
+    title: "Full-Stack Developer - Decathlon Digital",
     location: "Madrid, Spain",
     description:
       "I'm now a full-stack developer working in Decathlon Digital. My stack includes Javascript, Svelte, React, TypeScript, Node.js, etc.",
@@ -84,11 +84,10 @@ export const projectsData = [
     imageUrl: rmtdevImg,
   },
   {
-    title: "Word Analytics",
-    description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
-    imageUrl: wordanalyticsImg,
+    title: "Word Scramblle",
+    description: "Fun game app where you’re presented with a scrambled word.",
+    tags: ["Javascript", "HTML", "CSS"],
+    imageUrl: wordScramblle,
   },
 ] as const;
 

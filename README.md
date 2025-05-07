@@ -1,5 +1,5 @@
 <h1 align="center">👋 Hi, I'm Samy</h1>
-<h3 align="center">Frontend Developer | Passionate about design, animation, and building clean web experiences</h3>
+<h3 align="center">Frontend Developer | Passionate about developing and building clean web experiences</h3>
 
 ---
 
