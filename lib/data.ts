@@ -43,6 +43,14 @@ export const experiencesData = [
     date: "2017- 2019",
   },
   {
+    title: "Full Stack developer - Orange Spain",
+    location: "Madrid, Spain",
+    description:
+      "Orders management department in charge of fixing errors in relation to media query functionality.",
+    icon: React.createElement(CgWorkAlt),
+    date: "2020- 2021",
+  },
+  {
     title: "Graduated bootcamp - Ironhack",
     location: "Barcelona, Spain",
     description:
