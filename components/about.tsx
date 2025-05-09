@@ -26,22 +26,22 @@ export default function About() {
         , I decided to pursue my passion for programming. I enrolled in a coding
         bootcamp and learned{" "}
         <span className="font-medium">full-stack web development</span>.{" "}
-        <span className="italic">My favorite part of programming</span> is the
-        problem-solving aspect. I <span className="underline">love</span> the
-        feeling of finally figuring out a solution to a problem. My core stack
-        is{" "}
+        <span className="italic">What excites me most about programming</span>{" "}
+        is the problem-solving aspect. I <span className="underline">love</span>{" "}
+        the satisfaction of finally cracking a challenging problem. My core
+        stack includes{" "}
         <span className="font-medium">
-          Javascript, Typescript, React, Svelte, Node.js, and MongoDB
+          JavaScript, TypeScript, React, Svelte, Node.js, and MongoDB
         </span>
-        . I'm also familiar with Next.js and Vue.js and always looking to learn
-        new technologies.{" "}
+        . I'm also experienced with Next.js and Vue.js and am always eager to
+        explore new technologies.
       </p>
 
       <p>
         <span className="italic">When I'm not coding</span>, I enjoy surfing,
-        watching movies, and playing with my dog. I also enjoy{" "}
-        <span className="font-medium">learning new things</span>, such as how to
-        play the guitar.
+        watching movies, and spending time with my dog. I'm also passionate
+        about <span className="font-medium">learning new skills</span>, such as
+        learning to play the guitar.
       </p>
     </motion.section>
   );
