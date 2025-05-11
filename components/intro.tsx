@@ -63,7 +63,7 @@ export default function Intro() {
         <span className="font-bold">5 years</span> of experience building{" "}
         <span className="italic">dynamic websites and applications</span>. I
         specialize in <span className="underline">React (Next.js)</span>, and
-        I'm passionate about creating seamless, user-friendly experiences.
+        I'm passionate about creating, user-friendly experiences.
       </motion.h2>
       <motion.div
         className="flex flex-col sm:flex-row items-center justify-center gap-2 px-4 text-lg font-medium"
