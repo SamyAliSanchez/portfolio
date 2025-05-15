@@ -2,6 +2,40 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 222.2 84% 4.9%;
+  }
+
+  .dark {
+    --background: 222.2 84% 4.9%;
+    --foreground: 0 0% 100%;
+  }
+}
+
+/* Add smooth transitions for theme changes */
+* {
+  @apply transition-colors duration-200;
+}
+
+/* Theme switch animation */
+.theme-switch-sun {
+  @apply rotate-0 scale-100 transition-all duration-200;
+}
+
+.theme-switch-moon {
+  @apply rotate-90 scale-0 transition-all duration-200;
+}
+
+.dark .theme-switch-sun {
+  @apply rotate-90 scale-0;
+}
+
+.dark .theme-switch-moon {
+  @apply rotate-0 scale-100;
+}
+
 html{
     --line-color: #e5e7eb;
 }

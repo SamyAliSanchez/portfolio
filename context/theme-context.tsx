@@ -11,6 +11,7 @@ type Theme = "light" | "dark";
 type ThemeContextType = {
   theme: Theme;
   toggleTheme: () => void;
+  setTheme: (theme: Theme) => void;
 };
 
 const ThemeContext = createContext<ThemeContextType | null>(null);
@@ -20,34 +21,56 @@ export default function ThemeContextProvider({
 }: ThemeContextProviderProps) {
   const [theme, setTheme] = useState<Theme>("light");
 
-  const toggleTheme = () => {
-    if (theme === "light") {
-      setTheme("dark");
-      window.localStorage.setItem("theme", "dark");
+  const handleThemeChange = (newTheme: Theme) => {
+    setTheme(newTheme);
+    if (newTheme === "dark") {
       document.documentElement.classList.add("dark");
     } else {
-      setTheme("light");
-      window.localStorage.setItem("theme", "light");
       document.documentElement.classList.remove("dark");
     }
+    window.localStorage.setItem("theme", newTheme);
+  };
+
+  const toggleTheme = () => {
+    handleThemeChange(theme === "light" ? "dark" : "light");
   };
 
   useEffect(() => {
-    const localTheme = window.localStorage.getItem("theme") as Theme | null;
-    if (localTheme) {
-      setTheme(localTheme);
+    // Handle initial theme
+    const initializeTheme = () => {
+      const localTheme = window.localStorage.getItem("theme") as Theme | null;
+      const systemPrefersDark = window.matchMedia(
+        "(prefers-color-scheme: dark)"
+      ).matches;
 
-      if (localTheme === "dark") {
-        document.documentElement.classList.add("dark");
+      if (localTheme) {
+        handleThemeChange(localTheme);
+      } else if (systemPrefersDark) {
+        handleThemeChange("dark");
       }
-    } else if (window.matchMedia("(prefers-color-scheme:dark)").matches) {
-      setTheme("dark");
-      document.documentElement.classList.add("dark");
-    }
+    };
+
+    // Handle system theme changes
+    const mediaQuery = window.matchMedia("(prefers-color-scheme: dark)");
+    const handleSystemThemeChange = (e: MediaQueryListEvent) => {
+      const localTheme = window.localStorage.getItem("theme");
+      if (!localTheme) {
+        handleThemeChange(e.matches ? "dark" : "light");
+      }
+    };
+
+    initializeTheme();
+    mediaQuery.addEventListener("change", handleSystemThemeChange);
+
+    return () => {
+      mediaQuery.removeEventListener("change", handleSystemThemeChange);
+    };
   }, []);
 
   return (
-    <ThemeContext.Provider value={{ theme, toggleTheme }}>
+    <ThemeContext.Provider
+      value={{ theme, toggleTheme, setTheme: handleThemeChange }}
+    >
       {children}
     </ThemeContext.Provider>
   );
