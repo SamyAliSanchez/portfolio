@@ -29,6 +29,7 @@ export const metadata: Metadata = {
     "Samy Ali",
   ],
   creator: "Samy Ali",
+  metadataBase: new URL("https://samyali.es"),
   openGraph: {
     type: "website",
     locale: "en_US",
@@ -39,7 +40,7 @@ export const metadata: Metadata = {
       "Full-stack developer specialized in React, Next.js, and Node.js development.",
     images: [
       {
-        url: "/og-image.png",
+        url: "/opengraph-image",
         width: 1200,
         height: 630,
         alt: "Samy Ali - Portfolio",
@@ -52,7 +53,7 @@ export const metadata: Metadata = {
     description:
       "Full-stack developer specialized in React, Next.js, and Node.js development.",
     creator: "@samyalidev",
-    images: ["/og-image.png"],
+    images: ["/opengraph-image"],
   },
   robots: {
     index: true,

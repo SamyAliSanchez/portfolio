@@ -15,14 +15,13 @@ export default async function Image() {
     (
       <div
         style={{
-          background: "linear-gradient(to bottom right, #ffffff, #f3f4f6)",
+          background: "linear-gradient(to right, #1a1a1a, #2d2d2d)",
           width: "100%",
           height: "100%",
           display: "flex",
           flexDirection: "column",
           alignItems: "center",
           justifyContent: "center",
-          fontFamily: "Inter",
         }}
       >
         <div
@@ -30,14 +29,14 @@ export default async function Image() {
             display: "flex",
             flexDirection: "column",
             alignItems: "center",
-            gap: "1rem",
+            gap: "20px",
           }}
         >
           <h1
             style={{
-              fontSize: 64,
+              fontSize: 60,
               fontWeight: "bold",
-              color: "#111827",
+              color: "#ffffff",
               textAlign: "center",
               margin: 0,
             }}
@@ -46,8 +45,8 @@ export default async function Image() {
           </h1>
           <p
             style={{
-              fontSize: 32,
-              color: "#4b5563",
+              fontSize: 30,
+              color: "#9ca3af",
               textAlign: "center",
               margin: 0,
             }}
