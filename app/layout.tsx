@@ -40,7 +40,7 @@ export const metadata: Metadata = {
       "Full-stack developer specialized in React, Next.js, and Node.js development.",
     images: [
       {
-        url: "/preview.png",
+        url: "https://samyali.es/preview.png",
         width: 1200,
         height: 630,
         alt: "Samy Ali - Portfolio",
