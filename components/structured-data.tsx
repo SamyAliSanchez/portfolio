@@ -14,14 +14,14 @@ export default function StructuredData() {
       name: "Self-Employed",
     },
     description:
-      "Full-stack developer specialized in React, Next.js, and Node.js development.",
+      "Full-Stack developer specialized in React, Next.js, and Node.js development.",
     knowsAbout: [
       "React",
       "Next.js",
       "Node.js",
       "TypeScript",
       "Web Development",
-      "Full-stack Development",
+      "Full-Stack Development",
     ],
   };
 

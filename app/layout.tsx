@@ -18,9 +18,9 @@ export const metadata: Metadata = {
     template: "%s | Samy Ali",
   },
   description:
-    "Full-stack developer specialized in React, Next.js, and Node.js development.",
+    "Full-Stack developer specialized in React, Next.js, and Node.js development.",
   keywords: [
-    "Full-stack Developer",
+    "Full-Stack Developer",
     "Web Developer",
     "React Developer",
     "Next.js Developer",
@@ -37,7 +37,7 @@ export const metadata: Metadata = {
     siteName: "Samy Ali's Portfolio",
     title: "Samy Ali - Full-stack Developer",
     description:
-      "Full-stack developer specialized in React, Next.js, and Node.js development.",
+      "Full-Stack developer specialized in React, Next.js, and Node.js development.",
     images: [
       {
         url: "https://samyali.es/preview.png",
