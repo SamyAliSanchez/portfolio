@@ -6,7 +6,7 @@ import { FaUniversity, FaCocktail } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
 import decathlon from "@/public/decathlon1.png";
 import rmtdevImg from "@/public/rmtdev.png";
-import wordScramblle from "@/public/Desktop_1350px.jpg";
+import pokedexImg from "@/public/pokedex.png";
 
 export const links = [
   {
@@ -42,7 +42,7 @@ export const experiencesData = [
     description:
       "Participated in a training program, working with COBOL, maintaining batch/online programs, and supporting the migration from Banesto and OpenBank to Santander.",
     icon: React.createElement(FaUniversity),
-    date: "2014- 2017",
+    date: "2017- 2019",
   },
   {
     title: "Bar Manager - Raes on Wategos",
@@ -50,15 +50,7 @@ export const experiencesData = [
     description:
       "Managed bar operations, crafted bespoke cocktails, and optimized sales in a luxury beachfront venue.",
     icon: React.createElement(FaCocktail),
-    date: "2017- 2019",
-  },
-  {
-    title: "Full-Stack developer - Orange Spain",
-    location: "Madrid, Spain",
-    description:
-      "Orders management department in charge of fixing errors in relation to media query functionality.",
-    icon: React.createElement(CgWorkAlt),
-    date: "2019- 2020",
+    date: "2019- 2021",
   },
   {
     title: "Graduated bootcamp - Ironhack",
@@ -66,7 +58,7 @@ export const experiencesData = [
     description:
       "I graduated after 6 months of studying and immediately was hired from the bootcamp Ironhack as a teacher assistant.",
     icon: React.createElement(GiTeacher),
-    date: "2020-2022",
+    date: "2021-2023",
   },
   {
     title: "Full-Stack Developer - Decathlon Digital",
@@ -74,7 +66,7 @@ export const experiencesData = [
     description:
       "Currently working as a full-stack developer at Decathlon Digital, building scalable web applications using modern technologies including JavaScript, TypeScript, Svelte, React, and Node.js.",
     icon: React.createElement(FaReact),
-    date: "2022 - present",
+    date: "2023 - present",
   },
 ] as const;
 
@@ -82,7 +74,7 @@ export const projectsData = [
   {
     title: "Decathlon Digital",
     description:
-      "I worked as a full-stack developer on this company project for 3 years and 6 months.",
+      "Full-stack development on Decathlon's e-commerce platform, building scalable web applications and implementing new features.",
     tags: [
       "Javascript",
       "Svelte",
@@ -93,19 +85,22 @@ export const projectsData = [
       "CSS",
     ],
     imageUrl: decathlon,
+    url: "https://www.decathlon.es",
+  },
+  {
+    title: "Pokedex",
+    description:
+      "A pokèdex app where you can search for a pokemon and see its details.",
+    tags: ["React", "TypeScript", "Tailwind", "Next.js", "Node.js"],
+    imageUrl: pokedexImg,
+    url: "https://binpar-samy-pokedex.vercel.app/",
   },
   {
     title: "Project Management",
     description:
       "A react project management that contains features like filtering, sorting and pagination.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Node.Js"],
+    tags: ["React", "TypeScript", "Context API", "Tailwind", "Node.Js"],
     imageUrl: rmtdevImg,
-  },
-  {
-    title: "Word Scramblle",
-    description: "Fun game app where you’re presented with a scrambled word.",
-    tags: ["Javascript", "HTML", "CSS"],
-    imageUrl: wordScramblle,
   },
 ] as const;
 
@@ -115,14 +110,17 @@ export const skillsData = [
   "JavaScript",
   "TypeScript",
   "React",
+  "Svelte",
   "Next.js",
   "Node.js",
+  "Redux",
+  "Zustand",
+  "Vercel",
   "Express",
   "Git",
   "Tailwind",
   "Figma",
   "MongoDB",
   "Postman",
-  "Express",
   "Framer Motion",
 ] as const;
