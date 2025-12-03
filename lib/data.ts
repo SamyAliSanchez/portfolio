@@ -96,11 +96,23 @@ export const projectsData = [
     url: "https://binpar-samy-pokedex.vercel.app/",
   },
   {
-    title: "Project Management",
+    title: "Analysta Project",
     description:
-      "A react project management that contains features like filtering, sorting and pagination.",
-    tags: ["React", "TypeScript", "Context API", "Tailwind", "Node.Js"],
+      "A trading desk platform where users can register, analyze and operate with fictitious financial assets.",
+    tags: [
+      "NestJS",
+      "React",
+      "React Query",
+      "Axios",
+      "React Router",
+      "TypeScript",
+      "MongoDB",
+      "Zustand",
+      "Docker",
+      "Tailwind",
+    ],
     imageUrl: rmtdevImg,
+    url: "https://github.com/SamyAliSanchez/analysta-project",
   },
 ] as const;
 
