@@ -59,7 +59,7 @@ export default function Intro() {
         animate={{ opacity: 1, y: 0 }}
       >
         <span>Hello, I'm Samy,</span> a{" "}
-        <span className="font-bold">full-stack developer</span> with more than{" "}
+        <span className="font-bold">Software Engineer</span> with more than{" "}
         <span className="font-bold">4 years</span> of experience building{" "}
         <span className="italic">dynamic websites and applications</span>. I
         specialize in <span className="underline">React (Next.js)</span>, and

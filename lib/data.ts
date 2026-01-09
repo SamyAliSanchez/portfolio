@@ -1,9 +1,7 @@
 import React from "react";
-import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { GiTeacher } from "react-icons/gi";
 import { FaUniversity, FaCocktail } from "react-icons/fa";
-import { LuGraduationCap } from "react-icons/lu";
 import decathlon from "@/public/decathlon1.png";
 import rmtdevImg from "@/public/rmtdev.png";
 import pokedexImg from "@/public/pokedex.png";
@@ -61,10 +59,10 @@ export const experiencesData = [
     date: "2021-2023",
   },
   {
-    title: "Full-Stack Developer - Decathlon Digital",
+    title: "Software Engineer - Decathlon Digital",
     location: "Madrid, Spain",
     description:
-      "Currently working as a full-stack developer at Decathlon Digital, building scalable web applications using modern technologies including JavaScript, TypeScript, Svelte, React, and Node.js.",
+      "Currently working as a software engineer at Decathlon Digital, building scalable web applications using modern technologies including JavaScript, TypeScript, Svelte, React, and Node.js.",
     icon: React.createElement(FaReact),
     date: "2023 - present",
   },
@@ -81,8 +79,8 @@ export const projectsData = [
       "React",
       "Typescript",
       "Node.js",
-      "HTML",
-      "CSS",
+      "Tailwind",
+      "Docker",
     ],
     imageUrl: decathlon,
     url: "https://www.decathlon.es",
@@ -117,16 +115,19 @@ export const projectsData = [
 ] as const;
 
 export const skillsData = [
-  "HTML",
-  "CSS",
   "JavaScript",
-  "TypeScript",
   "React",
+  "TypeScript",
   "Svelte",
   "Next.js",
   "Node.js",
   "Redux",
   "Zustand",
+  "NestJS",
+  "React Query",
+  "Axios",
+  "React Router",
+  "Docker",
   "Vercel",
   "Express",
   "Git",

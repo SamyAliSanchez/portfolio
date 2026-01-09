@@ -19,8 +19,8 @@ export default function About() {
     >
       <SectionHeading>About Me</SectionHeading>
       <p className="mb-3">
-        I'm a <span className="font-medium">Full-Stack Developer</span> with
-        over 4 years of experience building scalable web applications using{" "}
+        I'm a <span className="font-medium">Software Engineer</span> with over 4
+        years of experience building scalable web applications using{" "}
         <span className="font-medium">React</span>,{" "}
         <span className="font-medium">TypeScript</span>,{" "}
         <span className="font-medium">Node.js</span>, and modern web
@@ -38,7 +38,7 @@ export default function About() {
         students and contributing to various projects.
       </p>
       <p className="mb-3">
-        Currently, I'm working as a full-stack developer at{" "}
+        Currently, I'm working as a software engineer at{" "}
         <span className="font-medium">Decathlon Digital</span>, where I build
         and maintain e-commerce platforms that serve millions of users. I'm
         always learning, improving, and striving to write clean, high-quality
