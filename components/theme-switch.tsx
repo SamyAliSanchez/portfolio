@@ -10,7 +10,7 @@ export default function ThemeSwitch() {
   return (
     <button
       aria-label={`Switch to ${theme === "light" ? "dark" : "light"} theme`}
-      className="fixed bottom-5 right-5 w-[3rem] h-[3rem] bg-opacity-80 backdrop-blur-[0.5rem] border border-opacity-40 shadow-2xl rounded-full flex items-center justify-center hover:scale-[1.15] active:scale-105 transition-all dark:bg-gray-950 bg-white border-white/40 dark:border-gray-800"
+      className="fixed top-5 right-5 w-[3rem] h-[3rem] bg-opacity-80 backdrop-blur-[0.5rem] border border-opacity-40 shadow-2xl rounded-full flex items-center justify-center hover:scale-[1.15] active:scale-105 transition-all dark:bg-gray-950 bg-white border-white/40 dark:border-gray-800"
       onClick={toggleTheme}
     >
       <div className="relative w-5 h-5">
