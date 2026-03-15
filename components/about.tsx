@@ -19,7 +19,7 @@ export default function About() {
     >
       <SectionHeading>About Me</SectionHeading>
       <p className="mb-3">
-        I'm a <span className="font-medium">Software Engineer</span> with over 4
+        I'm a <span className="font-medium">Software Engineer</span> with over 5
         years of experience building scalable web applications using{" "}
         <span className="font-medium">React</span>,{" "}
         <span className="font-medium">TypeScript</span>,{" "}
