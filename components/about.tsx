@@ -20,25 +20,24 @@ export default function About() {
       <SectionHeading>About me</SectionHeading>
 
       <div className="mt-8 grid gap-10 md:grid-cols-[minmax(0,2fr)_minmax(0,1.4fr)] items-start">
-        <div className="text-left space-y-4">
-          <p>
-            I&apos;m a <span className="font-medium">Software Engineer</span>{" "}
-            with more than <span className="font-medium">5 years of experience</span>{" "}
-            building web products with{" "}
-            <span className="font-medium">React (Next.js)</span>,{" "}
-            <span className="font-medium">TypeScript</span> and modern stacks.
-            I like to work close to the product and the user, aiming for simple,
-            clear and maintainable solutions.
-          </p>
-          <br />
-          <p>
-            I especially enjoy collaborating with other teams, polishing the
-            details of the user experience and continuously learning new ways
-            to write better code every day.
-          </p>
-        </div>
+   <div className="font-medium text-left space-y-4">
+     <br />
+    <p>
+      I&apos;m a <span className="font-bold">Software Engineer</span> who enjoys
+      working close to both the product and the user, focusing on building
+      simple, clear, and maintainable solutions.
+    </p>
+    <br />
 
-        <aside className="md:text-right">
+    <p>
+      I value collaboration with cross-functional teams and pay close attention
+      to the details of user experience. I&apos;m always looking for better ways to
+      write clean, maintainable code and continuously improve my craft as a
+      developer.
+    </p>
+  </div>
+
+        <aside className="font-semibold md:text-right">
           <div className="inline-flex md:flex md:flex-col gap-4 text-left md:text-right">
             <h3 className="text-sm font-semibold uppercase tracking-[0.18em] text-gray-500 dark:text-gray-400">
               What I enjoy the most
