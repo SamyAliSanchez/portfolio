@@ -2,7 +2,7 @@ import React from "react";
 import { FaReact } from "react-icons/fa";
 import { GiTeacher } from "react-icons/gi";
 import { FaUniversity, FaCocktail } from "react-icons/fa";
-import decathlon from "@/public/decathlon1.png";
+import decathlon from "@/public/DECATHLON_BRAND_ID.png";
 import rmtdevImg from "@/public/rmtdev.png";
 import pokedexImg from "@/public/pokedex.png";
 
