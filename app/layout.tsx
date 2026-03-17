@@ -90,7 +90,7 @@ export default function RootLayout({
             {children}
             <Footer />
             <Toaster position="top-right" reverseOrder={false} />
-            <ThemeSwitch />
+            <ThemeSwitch className="hidden sm:flex fixed right-5 top-5 z-[1000]" />
             <Analytics />
           </ActiveSectionContextProvider>
         </ThemeContextProvider>
